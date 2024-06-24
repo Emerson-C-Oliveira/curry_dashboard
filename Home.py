@@ -7,9 +7,8 @@ st.set_page_config(
     layout="wide"
 )
 
-# image_path = 'C:/Users/emers/Documents/repos/ftc_programacao_python/notebooks/'
-image_path = '/home/emersds/repos_projetos/curry_company/capa_currycompany.png'
-image = Image.open(image_path)
+# image_path = '/home/emersds/repos_projetos/curry_company/capa_currycompany.png'
+image = Image.open('capa_currycompany.png')
 st.sidebar.image(image, use_column_width=True)
 
 st.sidebar.markdown('# Cury Company')
