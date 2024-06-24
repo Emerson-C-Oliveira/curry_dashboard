@@ -104,7 +104,7 @@ def avg_std_time_on_traffic(df1):
 # # 3.0 - IMPORTANDO E LIMPANDO OS DADOS
 # # ==========================================================
 ## Leitura do arquivo CSV
-df = pd.read_csv('dataset/train.csv')
+df = pd.read_csv('../dataset/train.csv')
 
 ## Fazendo uma cópia do DataFrame lido
 df1 = clean_code(df)
@@ -112,8 +112,8 @@ df1 = clean_code(df)
 # ==========================================================
 # 4.0 BARRA LATERAL - FILTROS COMUNS A TODAS VISÕES
 # ==========================================================
-image_path = '/home/emersds/repos_projetos/curry_company/capa_currycompany.png'
-image = Image.open(image_path)
+# image_path = '/home/emersds/repos_projetos/curry_company/capa_currycompany.png'
+image = Image.open('capa_currycompany.png')
 st.sidebar.image(image, use_column_width=True)
 
 st.sidebar.markdown('# Cury Company')
