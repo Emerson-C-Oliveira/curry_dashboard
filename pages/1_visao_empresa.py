@@ -151,7 +151,7 @@ def country_maps(df1):
 # # 3.0 - IMPORTANDO E LIMPANDO OS DADOS
 # # ==========================================================
 ## Leitura do arquivo CSV
-df = pd.read_csv('../dataset/train.csv')
+df = pd.read_csv('dataset/train.csv')
 
 ## Fazendo uma cópia do DataFrame lido
 df1 = clean_code(df)

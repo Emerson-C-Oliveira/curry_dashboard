@@ -104,7 +104,7 @@ def avg_std_time_on_traffic(df1):
 # # 3.0 - IMPORTANDO E LIMPANDO OS DADOS
 # # ==========================================================
 ## Leitura do arquivo CSV
-df = pd.read_csv('../dataset/train.csv')
+df = pd.read_csv('dataset/train.csv')
 
 ## Fazendo uma cópia do DataFrame lido
 df1 = clean_code(df)
